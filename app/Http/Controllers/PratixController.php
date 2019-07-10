@@ -23,6 +23,5 @@ class PratixController extends BaseController
       $filtereds[] = $i;
     }
     return $this->successData($filtereds);
-    dd($filtereds);
   }
 }
